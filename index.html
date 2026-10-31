@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="hi-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nova Voice Assistant</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Nova: Hinglish voice assistant for Android. Calls, WhatsApp, screen control, college attendance, automation, SOS, memory and laptop control - by voice. Data stays on your phone. ₹59 lifetime, free beta.">
+<meta name="theme-color" content="#000000">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='16 16 76 76'%3E %3Ccircle cx='54' cy='54' r='38' fill='%23000'/%3E %3Cpath d='M30.5,54.0 A23.5,23.5 0 1,1 77.5,54.0 A23.5,23.5 0 1,1 30.5,54.0 Z' fill='none' stroke='%23fff' stroke-width='2.6' opacity='0.9'/%3E %3Cpath d='M30.3,45.9 A1.6,1.6 0 1,1 33.5,45.9 A1.6,1.6 0 1,1 30.3,45.9 Z M72.7,42.2 A1.6,1.6 0 1,1 75.9,42.2 A1.6,1.6 0 1,1 72.7,42.2 Z' fill='%23fff'/%3E %3Cpath d='M83.3,41.2 L83.4,41.4 L83.4,41.7 L83.4,41.9 L83.4,42.2 L83.4,42.5 L83.4,42.7 L83.4,43.0 L83.3,43.3 L83.2,43.6 L83.1,43.9 L83.0,44.3 L82.8,44.6 L82.6,44.9 L82.4,45.3 L82.2,45.6 L82.0,45.9 L81.8,46.3 L81.5,46.7 L81.2,47.0 L80.9,47.4 L80.6,47.8 L80.2,48.1 L79.9,48.5 L79.5,48.9 L79.1,49.3 L78.7,49.7 L78.3,50.1 L77.8,50.5 L77.4,50.9 L76.9,51.3 L76.4,51.7 L75.9,52.1 L75.4,52.5 L74.8,52.9 L74.3,53.3 L73.7,53.7 L73.1,54.1 L72.5,54.6 L71.9,55.0 L71.3,55.4 L70.7,55.8 L70.0,56.2 L69.4,56.6 L68.7,57.0 L68.0,57.4 L67.4,57.8 L66.7,58.2 L66.0,58.6 L65.3,59.0 L64.5,59.4 L63.8,59.7 L63.1,60.1 L62.3,60.5 L61.6,60.9 L60.9,61.2 L60.1,61.6 L59.3,61.9 L58.6,62.3 L57.8,62.6 L57.1,63.0 L56.3,63.3 L55.5,63.6 L54.7,63.9 L54.0,64.3 L53.2,64.6 L52.4,64.9 L51.7,65.2 L50.9,65.4 L50.1,65.7 L49.4,66.0 L48.6,66.2 L47.8,66.5 L47.1,66.7 L46.3,67.0 L45.6,67.2 L44.9,67.4 L44.1,67.6 L43.4,67.8 L42.7,68.0 L42.0,68.2 L41.3,68.3 L40.6,68.5 L39.9,68.6 L39.2,68.8 L38.6,68.9 L37.9,69.0 L37.3,69.1 L36.6,69.2 L36.0,69.3 L35.4,69.4 L34.8,69.4 L34.2,69.5 L33.7,69.5 L33.1,69.6 L32.6,69.6 L32.1,69.6 L31.5,69.6 L31.0,69.6 L30.6,69.6 L30.1,69.5 L29.7,69.5 L29.2,69.4 L28.8,69.4 L28.4,69.3 L28.0,69.2 L27.7,69.1 L27.3,69.0 L27.0,68.9 L26.7,68.8 L26.4,68.6 L26.2,68.5 L25.9,68.3 L25.7,68.2 L25.5,68.0 L25.3,67.8 L25.1,67.6 L25.0,67.4 L24.8,67.2 L24.7,67.0' fill='none' stroke='%23000' stroke-width='5.8' stroke-linecap='round'/%3E %3Cpath d='M75.9,38.3 L76.4,38.3 L76.9,38.3 L77.3,38.3 L77.8,38.4 L78.2,38.4 L78.7,38.5 L79.1,38.5 L79.5,38.6 L79.9,38.7 L80.2,38.8 L80.6,38.9 L80.9,39.0 L81.2,39.1 L81.5,39.3 L81.7,39.4 L82.0,39.6 L82.2,39.7 L82.4,39.9 L82.6,40.1 L82.8,40.3 L82.9,40.5 L83.1,40.7 L83.2,40.9 L83.3,41.2 L83.4,41.4 L83.4,41.7 L83.4,41.9 L83.4,42.2 L83.4,42.5 L83.4,42.7 L83.4,43.0 L83.3,43.3 L83.2,43.6 L83.1,43.9 L83.0,44.3 L82.8,44.6 L82.6,44.9 L82.4,45.3 L82.2,45.6 L82.0,45.9 L81.8,46.3 L81.5,46.7 L81.2,47.0 L80.9,47.4 L80.6,47.8 L80.2,48.1 L79.9,48.5 L79.5,48.9 L79.1,49.3 L78.7,49.7 L78.3,50.1 L77.8,50.5 L77.4,50.9 L76.9,51.3 L76.4,51.7 L75.9,52.1 L75.4,52.5 L74.8,52.9 L74.3,53.3 L73.7,53.7 L73.1,54.1 L72.5,54.6 L71.9,55.0 L71.3,55.4 L70.7,55.8 L70.0,56.2 L69.4,56.6 L68.7,57.0 L68.0,57.4 L67.4,57.8 L66.7,58.2 L66.0,58.6 L65.3,59.0 L64.5,59.4 L63.8,59.7 L63.1,60.1 L62.3,60.5 L61.6,60.9 L60.9,61.2 L60.1,61.6 L59.3,61.9 L58.6,62.3 L57.8,62.6 L57.1,63.0 L56.3,63.3 L55.5,63.6 L54.7,63.9 L54.0,64.3 L53.2,64.6 L52.4,64.9 L51.7,65.2 L50.9,65.4 L50.1,65.7 L49.4,66.0 L48.6,66.2 L47.8,66.5 L47.1,66.7 L46.3,67.0 L45.6,67.2 L44.9,67.4 L44.1,67.6 L43.4,67.8 L42.7,68.0 L42.0,68.2 L41.3,68.3 L40.6,68.5 L39.9,68.6 L39.2,68.8 L38.6,68.9 L37.9,69.0 L37.3,69.1 L36.6,69.2 L36.0,69.3 L35.4,69.4 L34.8,69.4 L34.2,69.5 L33.7,69.5 L33.1,69.6 L32.6,69.6 L32.1,69.6 L31.5,69.6 L31.0,69.6 L30.6,69.6 L30.1,69.5 L29.7,69.5 L29.2,69.4 L28.8,69.4 L28.4,69.3 L28.0,69.2 L27.7,69.1 L27.3,69.0 L27.0,68.9 L26.7,68.8 L26.4,68.6 L26.2,68.5 L25.9,68.3 L25.7,68.2 L25.5,68.0 L25.3,67.8 L25.1,67.6 L25.0,67.4 L24.8,67.2 L24.7,67.0 L24.6,66.7 L24.6,66.5 L24.5,66.2 L24.5,66.0 L24.5,65.7 L24.5,65.5 L24.5,65.2 L24.6,64.9 L24.6,64.6 L24.7,64.3 L24.8,64.0 L25.0,63.7 L25.1,63.3 L25.3,63.0 L25.5,62.7 L25.7,62.3 L25.9,62.0 L26.2,61.6 L26.4,61.3 L26.7,60.9 L27.0,60.5 L27.3,60.1 L27.7,59.8' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round'/%3E %3Cpath d='M28.0,69.6 A2.6,2.6 0 1,1 33.2,69.6 A2.6,2.6 0 1,1 28.0,69.6 Z' fill='%23fff'/%3E %3Cpath d='M43.0,66.0 L43.0,42.0 L48.6,42.0 L59.4,57.8 L59.4,42.0 L65.0,42.0 L65.0,66.0 L59.4,66.0 L48.6,50.2 L48.6,66.0 Z' fill='%23000' stroke='%23000' stroke-width='3.4' stroke-linejoin='round'/%3E %3Cpath d='M43.0,66.0 L43.0,42.0 L48.6,42.0 L59.4,57.8 L59.4,42.0 L65.0,42.0 L65.0,66.0 L59.4,66.0 L48.6,50.2 L48.6,66.0 Z' fill='%23fff'/%3E %3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;600;700&family=Hind:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="bar">
+    <a class="mark" href="index.html"><span class="dot" aria-hidden="true"></span>NOVA</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#data">Data</a>
+      <a href="#price">Price</a>
+      <a href="#install">Install</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div>
+        <p class="hud"><span class="live" aria-hidden="true"></span>Bas "Nova" bolo · Android · Hinglish</p>
+        <h1>Bolo.<br><span class="thin">Phone</span> kaam karta hai.</h1>
+        <p class="lede">Nova aapki rozana wali Hinglish samajhta hai: call, WhatsApp, screen par tap, attendance, automation, SOS, yaadein, laptop tak. <strong>Nova ka koi server nahi</strong>, aapka data aapke phone mein rehta hai.</p>
+        <div class="ctas">
+          <a class="btn primary" href="https://github.com/gaurav-531/nova/releases/latest">Free download <small>beta</small></a>
+          <a class="btn ghost" href="#price">Lifetime ₹59</a>
+        </div>
+        <p class="fine">Android 8.0+ · Ek baar ka payment · Koi subscription nahi</p>
+
+        <div class="console" aria-label="Example voice commands">
+          <div class="console-head">
+            <span class="hud">Nova…</span>
+            <span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+          </div>
+          <ul class="lines" id="lines">
+            <li><span class="said">bhai zara awaaz kam kar do</span><span class="did">volume kam</span></li>
+            <li><span class="said">rahul ko bolo ki main 5 baje aaunga</span><span class="did">WhatsApp › Rahul</span></li>
+            <li><span class="said">meri bottle table par padi hai</span><span class="did">yaad rakh liya</span></li>
+            <li><span class="said">1200 ka bill 4 logon mein baanto</span><span class="did">₹300 har ek</span></li>
+            <li><span class="said">laptop lock karo</span><span class="did">laptop locked</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="core" id="coreBox">
+        <canvas id="core" role="img" aria-label="Nova ka ghoomta hua 3D core. Tap karne par jaagta hai."></canvas>
+        <span class="tick t1">Core · 480 nodes</span>
+        <span class="tick t2" id="rot">Rot 000°</span>
+        <span class="tick t3">Tap = wake</span>
+        <span class="tick t4">On-device</span>
+      </div>
+    </div>
+
+    <div class="stats" aria-label="Short facts">
+      <div><b>₹59</b><span>ek baar, lifetime</span></div>
+      <div><b>30 din</b><span>free beta, sab features</span></div>
+      <div><b>0 server</b><span>data sirf aapke phone mein</span></div>
+      <div><b>8.0+</b><span>Android version</span></div>
+    </div>
+
+    <section id="features" aria-labelledby="f-h">
+      <div class="sec-head">
+        <div>
+          <p class="hud">18 modules</p>
+          <h2 id="f-h">Ek awaaz, poora phone</h2>
+        </div>
+        <div class="chips" role="group" aria-label="Filter features">
+          <button class="chip" type="button" data-f="all" aria-pressed="true">Sab</button>
+          <button class="chip" type="button" data-f="phone" aria-pressed="false">Phone par</button>
+          <button class="chip" type="button" data-f="key" aria-pressed="false">Gemini key se</button>
+        </div>
+      </div>
+
+      <div class="mods" id="mods">
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">01 · Bhasha</span><span class="tag">Phone par</span></div>
+          <h3>Hinglish samajh</h3>
+          <p>Jaise dost se bolte ho waise. "zara", "bhai", Hindi script, aur "phir" se kai kaam ek saath.</p>
+          <ul><li>bhai zara awaaz kam kar do</li><li>papa se baat karao</li><li>wifi on karo phir youtube kholo</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">02 · Screen</span><span class="tag">Phone par</span></div>
+          <h3>Bina touch, screen control</h3>
+          <p>Tap, scroll, likhna, settings aur YouTube player. Payment apps khulte hi khud band.</p>
+          <ul><li>Subscribe dabao</li><li>neeche jao jab tak Battery na mile</li><li>speed 1.5 karo</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">03 · Baat</span><span class="tag">Phone par</span></div>
+          <h3>Call aur message</h3>
+          <p>Naam se call, speaker, WhatsApp call aur message. Aaye hue message padhkar sunata hai.</p>
+          <ul><li>call mom on speaker</li><li>kiska message aaya</li><li>reply karo main 5 baje aaunga</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">04 · Yaad</span><span class="tag">Phone par</span></div>
+          <h3>Insaan jaisi yaadein</h3>
+          <p>Bina "yaad rakho" bole bhi yaad rakhta hai. Birthday se ek din pehle aur usi din batata hai.</p>
+          <ul><li>meri bottle table par padi hai</li><li>bottle kahan hai?</li><li>rahul ka birthday 5 may ko hai</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">05 · College</span><span class="tag">Phone par</span></div>
+          <h3>Attendance aur timetable</h3>
+          <p>Kitni class aur chahiye, agli class kaunsi, class mein phone silent, assignments ki yaad.</p>
+          <ul><li>monday 9 se 10 thermodynamics ki class hai</li><li>thermo mein kitni class aur chahiye</li><li>kaunse assignments baaki hain</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">06 · Auto</span><span class="tag">Phone par</span></div>
+          <h3>Jab… tab… automation</h3>
+          <p>WiFi, charging, battery, headphone, Bluetooth ya time par phone khud kaam karta hai.</p>
+          <ul><li>jab hostel ki wifi se judu to phone silent kar do</li><li>jab battery 20 se kam ho to power saving on karo</li><li>roz raat 11 baje phone silent karo</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">07 · Safety</span><span class="tag">Phone par</span></div>
+          <h3>SOS aur safe walk</h3>
+          <p>5 second mein SOS (cancel ho sakta hai), safe walk timer, aur kho gaye phone ke liye SMS code.</p>
+          <ul><li>bachao bachao</li><li>safe walk 20 minute</li><li>phone dhundhne ka code 4821 rakho</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">08 · Later</span><span class="tag">Phone par</span></div>
+          <h3>Baad mein bhejna</h3>
+          <p>Raat 12 baje wala birthday wish, location, last photo. WhatsApp ya SMS se.</p>
+          <ul><li>raat 12 baje rahul ko happy birthday bhejna</li><li>rahul ko meri location bhejo</li><li>scheduled messages batao</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">09 · Paisa</span><span class="tag">Phone par</span></div>
+          <h3>Udhaar aur hisaab</h3>
+          <p>Kisko kitna diya, bill baantna (tip ke saath), aur bank SMS se mahine ka kharcha.</p>
+          <ul><li>rahul ko 200 udhaar diye</li><li>1200 ka bill 4 logon mein baanto</li><li>is mahine ka kharcha batao</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">10 · Kaam</span><span class="tag">Phone par</span></div>
+          <h3>Kaam, goals, inbox</h3>
+          <p>Ek baar mein 5 kaam focus mein, baaki "baad mein". Projects, goals aur ideas ka inbox.</p>
+          <ul><li>kaam jodo thermo assignment friday tak</li><li>aaj kya karna hai</li><li>idea note karo instagram page</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">11 · Sehat</span><span class="tag">Phone par</span></div>
+          <h3>Steps, aadat, screen time</h3>
+          <p>Gym aur padhai ki streak, paani reminder, aur Instagram / YouTube par time limit.</p>
+          <ul><li>aaj kitne steps chale</li><li>instagram ki limit 30 minute rakho</li><li>gym streak batao</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">12 · Laptop</span><span class="tag">Same WiFi</span></div>
+          <h3>Laptop control</h3>
+          <p>Windows laptop par chhota helper chalao. Lock, awaaz, slides, screenshot, PIN ke saath.</p>
+          <ul><li>laptop lock karo</li><li>agli slide</li><li>laptop ka screenshot lo</li></ul>
+        </article>
+        <article class="mod" data-k="phone">
+          <div class="mod-top"><span class="hud">13 · Modes</span><span class="tag">Phone par</span></div>
+          <h3>Modes aur parents mode</h3>
+          <p>Sone, gym, padhai, driving. "band karo" bolo to sab pehle jaisa. Parents ke liye bade akshar.</p>
+          <ul><li>main sone ja raha hoon</li><li>study mode</li><li>parents mode on karo</li></ul>
+        </article>
+        <article class="mod" data-k="net">
+          <div class="mod-top"><span class="hud">14 · Mausam</span><span class="tag">Internet</span></div>
+          <h3>Baarish alert</h3>
+          <p>Bina Gemini key ke. Baarish aane wali ho to pehle bata deta hai.</p>
+          <ul><li>kya aaj baarish hogi</li><li>chhata le jaun kya</li><li>baarish alert on karo</li></ul>
+        </article>
+        <article class="mod" data-k="key">
+          <div class="mod-top"><span class="hud">15 · Sawaal</span><span class="tag solid">Gemini key</span></div>
+          <h3>Kuch bhi poochho</h3>
+          <p>General knowledge, padhai ke concept, briefing aur aaj ka plan.</p>
+          <ul><li>Elon Musk kaun hai</li><li>newton ka teesra niyam samjhao</li><li>briefing do</li></ul>
+        </article>
+        <article class="mod" data-k="key">
+          <div class="mod-top"><span class="hud">16 · Likhna</span><span class="tag solid">Gemini key</span></div>
+          <h3>Likhna aur translate</h3>
+          <p>Leave application, email, caption. Kisi bhi bhasha mein translate, English practice.</p>
+          <ul><li>principal ko 3 din ki leave application likho</li><li>thank you ko japanese mein kaise bolte hain</li><li>english practice karo</li></ul>
+        </article>
+        <article class="mod" data-k="key">
+          <div class="mod-top"><span class="hud">17 · Aankhein</span><span class="tag solid">Gemini key</span></div>
+          <h3>Camera se dekhna</h3>
+          <p>Camera se dekh kar batata hai, sawaal hal karta hai, khane ki calories batata hai.</p>
+          <ul><li>ye kya hai</li><li>ye question solve karo</li><li>is khane mein kitni calories hai</li></ul>
+        </article>
+        <article class="mod" data-k="key">
+          <div class="mod-top"><span class="hud">18 · Lecture</span><span class="tag solid">Gemini key</span></div>
+          <h3>Lecture se notes</h3>
+          <p>Class record karo, Nova notes bana deta hai. Notes bante hi recording delete.</p>
+          <ul><li>thermo ka lecture record karo 50 minute</li><li>lecture notes kholo</li></ul>
+        </article>
+      </div>
+      <p class="legend">
+        <span><span class="tag">Phone par</span> Nova ka dimaag phone mein chalta hai (WhatsApp jaise apps ko apna internet chahiye)</span>
+        <span><span class="tag solid">Gemini key</span> aapki apni Google Gemini key se</span>
+      </p>
+    </section>
+
+    <section id="data" aria-labelledby="d-h">
+      <div class="sec-head">
+        <div>
+          <p class="hud">Privacy</p>
+          <h2 id="d-h">Data kahan rehta hai</h2>
+        </div>
+        <p>Nova ke developer ka koi server nahi hai. Hum aapka data na dekhte hain, na bechte hain. Poori detail <a href="privacy.html">Privacy Policy</a> mein.</p>
+      </div>
+      <div class="split">
+        <div class="panel">
+          <h3>Phone ke andar</h3>
+          <ul>
+            <li><b>MIC</b><span>"Nova" phone ke andar (offline) pehchana jaata hai. Awaaz save nahi hoti.</span></li>
+            <li><b>VOICE ID</b><span>Aapki awaaz ka numeric fingerprint, sirf phone mein. Kabhi bhi hatao.</span></li>
+            <li><b>YAADEIN</b><span>Yaadein, kaam, log, baat-cheet. OTP, password, card number save hone se pehle hata diye jaate hain.</span></li>
+            <li><b>SCREEN</b><span>Sirf aapke bolne par tap / scroll. Screen record nahi hoti. Payment apps mein band.</span></li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Bahar, sirf jab zaroori ho</h3>
+          <ul>
+            <li><b>LICENSE</b><span>License key aur phone model, Dodo Payments ko.</span></li>
+            <li><b>SPEECH</b><span>Google speech service command sunne ke liye (band kar sakte ho).</span></li>
+            <li><b>GEMINI</b><span>Sirf aapki apni key daalne par: sawaal, zaroori yaadein, photo / recording.</span></li>
+            <li><b>MAUSAM</b><span>Lagbhag location MET Norway ko. Hospital ke liye OpenStreetMap.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" aria-labelledby="h-h">
+      <div class="sec-head">
+        <div>
+          <p class="hud">3 steps</p>
+          <h2 id="h-h">Kaise milega</h2>
+        </div>
+      </div>
+      <ol class="steps">
+        <li><h3>Download karo</h3><p>APK install karo, setup poora karo. Beta mein 30 din sab features free.</p></li>
+        <li><h3>₹59 mein unlock</h3><p>Pasand aaye to "Lifetime ₹59" se payment (beta ke baad shuru hoga). License key turant email par aati hai.</p></li>
+        <li><h3>Key daalo</h3><p>App mein Voice tab › "License / Kharido" › key paste karo. Trial khatam hone par ye screen khud khulti hai.</p></li>
+      </ol>
+    </section>
+
+    <section id="price" aria-labelledby="p-h">
+      <div class="sec-head">
+        <div>
+          <p class="hud">Price</p>
+          <h2 id="p-h">Ek baar. Hamesha.</h2>
+        </div>
+      </div>
+      <div class="price">
+        <div class="amount">₹59<small>one-time · lifetime</small></div>
+        <div>
+          <ul>
+            <li>Saare features aur aage ke updates</li>
+            <li>1 license = 1 phone (phone badalne par transfer ho jata hai)</li>
+            <li>Payment Dodo Payments ke secure checkout par</li>
+          </ul>
+          <div class="ctas">
+            <a class="btn primary" href="https://github.com/gaurav-531/nova/releases/latest">Free beta download</a>
+          </div>
+          <p class="fine">Nova abhi beta mein hai: payment jald shuru hoga, tab tak free try karo. <a href="refund.html">Refund policy</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="install" aria-labelledby="i-h">
+      <div class="sec-head">
+        <div>
+          <p class="hud">Setup</p>
+          <h2 id="i-h">Install aur zaroori cheezein</h2>
+        </div>
+      </div>
+      <dl class="specs read">
+        <dt>Android</dt><dd>8.0 ya naya, 64-bit phone (lagbhag 2017 ke baad ke saare). Samsung, Xiaomi, Vivo, Oppo, Realme, OnePlus, Motorola par chalta hai.</dd>
+        <dt>Size</dt><dd>Lagbhag 137 MB download (offline sunne ke models ke saath). WiFi par download karna behtar.</dd>
+        <dt>Install</dt><dd>APK kholo › "Install unknown apps" allow karo › Install. Play Protect "App blocked" dikhaye to neeche FAQ dekho. APK sirf isi website ke link se lo.</dd>
+        <dt>Screen control</dt><dd>App ke setup mein ek tap se Accessibility page khulta hai. Switch grey ho to: App info › ⋮ › "Allow restricted settings", phir ON.</dd>
+        <dt>Internet</dt><dd>Zyada tar kaam bina internet. License activate karne ke liye ek baar chahiye.</dd>
+        <dt>Gemini key</dt><dd>Optional. Google AI Studio se apni key banao aur app ke Voice tab mein "Gemini API key" mein daalo. Key aapki apni rehti hai.</dd>
+        <dt>Laptop</dt><dd>Optional. Windows laptop par Nova helper chalao, dono ek WiFi par.</dd>
+      </dl>
+    </section>
+
+    <section id="faq" aria-labelledby="q-h">
+      <div class="sec-head">
+        <div>
+          <p class="hud">FAQ</p>
+          <h2 id="q-h">Sawaal</h2>
+        </div>
+      </div>
+      <details><summary>Play Store par kyun nahi hai?</summary><p>Nova poora phone chalane ke liye Accessibility, SMS aur call log jaisi permissions use karta hai. Play Store aisi automation apps ko bahut kam allow karta hai, isliye Nova seedha is website se milta hai.</p></details>
+      <details><summary>Play Protect ne "App blocked" kyun dikhaya?</summary><p>India mein Google un apps ko rokta hai jo website ya WhatsApp se install hon aur SMS, notification ya Accessibility (screen control) ki permission maangein. Nova ko ye permissions apne kaam ke liye chahiye, isliye block dikhta hai. Install karne ke liye: Play Store › profile photo › Play Protect › settings › "Scan apps with Play Protect" thodi der OFF, APK install karo, phir wapas ON kar do. Ye sirf isi website wale APK ke liye karna. Call chalte waqt ye setting lock rehti hai.</p></details>
+      <details><summary>Screen control (Accessibility) safe hai?</summary><p>Nova sirf aapke bolne par tap ya scroll karta hai, screen record nahi karta, aur GPay / PhonePe jaise payment apps mein khud band ho jata hai. Advanced "auto mode" mein ye sirf "Nova" bolne par ON hota hai aur 2 minute baad khud band.</p></details>
+      <details><summary>Kya meri awaaz ya data kahin jaata hai?</summary><p>Jagane wala shabd aur Voice ID phone ke andar chalte hain. Command sunne ke liye Google ki speech service use hoti hai (band kar sakte ho). Gemini sirf tab, jab aap apni key daalo. Poori list <a href="privacy.html">Privacy Policy</a> mein.</p></details>
+      <details><summary>Gemini key zaroori hai?</summary><p>Nahi. Calls, messages, screen control, yaadein, college, automation, SOS aur hisaab bina key ke chalte hain. Key daalne par mushkil sawaal, likhna, translate, camera se dekhna, lecture notes aur HD awaaz bhi milte hain.</p></details>
+      <details><summary>Phone badal liya to?</summary><p>Purane phone mein Voice tab › "License / Kharido" › "Is phone se hatao" dabao, phir naye phone mein wahi key daalo. Purana phone kho gaya ho to support ko email karo.</p></details>
+      <details><summary>Payment ho gaya par key nahi aayi?</summary><p>Spam folder dekho. 1 ghante mein na mile to order ID ke saath support ko email karo.</p></details>
+      <details><summary>Refund milega?</summary><p>Pehle free try karo. Kharidne ke 7 din ke andar Nova aapke phone par theek se na chale aur support theek na kar paaye, to poora refund. Detail <a href="refund.html">Refund policy</a> mein.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <div class="cols">
+      <div>
+        <strong>Nova Voice Assistant</strong> · Gourav Sanwariya, Udaipur, Rajasthan, India<br>
+        Support: <span class="copy">support@yournovasite.com</span>
+      </div>
+      <nav aria-label="Legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="refund.html">Refund</a>
+      </nav>
+    </div>
+    <p class="fine">Payments Dodo Payments dwara. Mausam data: MET Norway (CC BY 4.0).</p>
+  </footer>
+</div>
+
+<script>
+(() => {
+  "use strict";
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- 3D core: dot sphere + plexus + rings, same idea as the app ---------- */
+  const cv = document.getElementById("core");
+  const box = document.getElementById("coreBox");
+  const rotEl = document.getElementById("rot");
+  const ctx = cv.getContext("2d");
+  let W = 0, H = 0;
+
+  const fib = (n, r) => {
+    const out = [], ga = Math.PI * (3 - Math.sqrt(5));
+    for (let i = 0; i < n; i++) {
+      const y = 1 - (i / (n - 1)) * 2, rr = Math.sqrt(1 - y * y), t = ga * i;
+      out.push([Math.cos(t) * rr * r, y * r, Math.sin(t) * rr * r]);
+    }
+    return out;
+  };
+  const outer = fib(360, 1), inner = fib(120, 0.52);
+  const pairsOf = (pts, th) => {
+    const p = [];
+    for (let i = 0; i < pts.length; i++) for (let j = i + 1; j < pts.length; j++) {
+      const dx = pts[i][0] - pts[j][0], dy = pts[i][1] - pts[j][1], dz = pts[i][2] - pts[j][2];
+      if (dx * dx + dy * dy + dz * dz < th * th) p.push(i, j);
+    }
+    return p;
+  };
+  const outerPairs = pairsOf(outer, 0.215), innerPairs = pairsOf(inner, 0.2);
+  const rings = [
+    { tilt: 1.15, spin: 0.35, r: 1.28, dash: [2, 7] },
+    { tilt: -0.55, spin: -0.22, r: 1.42, dash: [14, 10] },
+    { tilt: 0.25, spin: 0.15, r: 1.6, dash: [1, 4] }
+  ];
+
+  function resize() {
+    const r = cv.getBoundingClientRect(), dpr = Math.min(window.devicePixelRatio || 1, 2);
+    W = r.width; H = r.height;
+    cv.width = Math.max(1, Math.round(W * dpr)); cv.height = Math.max(1, Math.round(H * dpr));
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  let ay = 0.6, ax = 0.32, tx = 0, ty = 0, sx = 0, sy = 0, boost = 0, last = 0, frame = 0;
+  const sonars = [];
+  let nextSonar = 0;
+
+  function project(p, cy_, sy_, cx_, sx_, cxp, cyp, R, out) {
+    // rotate around Y then X
+    const x1 = p[0] * cy_ + p[2] * sy_, z1 = -p[0] * sy_ + p[2] * cy_;
+    const y2 = p[1] * cx_ - z1 * sx_, z2 = p[1] * sx_ + z1 * cx_;
+    const s = 3.2 / (3.2 - z2);
+    out[0] = cxp + x1 * R * s; out[1] = cyp + y2 * R * s; out[2] = z2;
+  }
+
+  const bufO = new Float32Array(outer.length * 3), bufI = new Float32Array(inner.length * 3);
+  const tmp = [0, 0, 0];
+
+  function drawSet(pts, pairs, buf, ry, rx, R, cxp, cyp, alphaScale) {
+    const cy_ = Math.cos(ry), sy_ = Math.sin(ry), cx_ = Math.cos(rx), sx_ = Math.sin(rx);
+    for (let i = 0; i < pts.length; i++) {
+      project(pts[i], cy_, sy_, cx_, sx_, cxp, cyp, R, tmp);
+      buf[i * 3] = tmp[0]; buf[i * 3 + 1] = tmp[1]; buf[i * 3 + 2] = tmp[2];
+    }
+    const zmax = pts[0] ? Math.hypot(pts[0][0], pts[0][1], pts[0][2]) : 1;
+    // lines in 4 depth buckets (one stroke each)
+    for (let b = 0; b < 4; b++) {
+      ctx.beginPath();
+      for (let k = 0; k < pairs.length; k += 2) {
+        const i = pairs[k], j = pairs[k + 1];
+        const z = (buf[i * 3 + 2] + buf[j * 3 + 2]) / (2 * zmax);
+        const bucket = Math.min(3, Math.max(0, Math.floor((z + 1) * 2)));
+        if (bucket !== b) continue;
+        ctx.moveTo(buf[i * 3], buf[i * 3 + 1]); ctx.lineTo(buf[j * 3], buf[j * 3 + 1]);
+      }
+      ctx.strokeStyle = "rgba(255,255,255," + ((0.05 + b * 0.09) * alphaScale).toFixed(3) + ")";
+      ctx.lineWidth = 0.6 + b * 0.15;
+      ctx.stroke();
+    }
+    // points in 5 depth buckets
+    for (let b = 0; b < 5; b++) {
+      ctx.beginPath();
+      const size = 0.9 + b * 0.45;
+      for (let i = 0; i < pts.length; i++) {
+        const z = buf[i * 3 + 2] / zmax;
+        const bucket = Math.min(4, Math.max(0, Math.floor((z + 1) * 2.5)));
+        if (bucket !== b) continue;
+        ctx.rect(buf[i * 3] - size / 2, buf[i * 3 + 1] - size / 2, size, size);
+      }
+      ctx.fillStyle = "rgba(255,255,255," + ((0.18 + b * 0.2) * alphaScale).toFixed(3) + ")";
+      ctx.fill();
+    }
+  }
+
+  function drawRing(ring, t, R, cxp, cyp, ry, rx) {
+    const cy_ = Math.cos(ry * 0.4 + t * ring.spin), sy_ = Math.sin(ry * 0.4 + t * ring.spin);
+    const cx_ = Math.cos(ring.tilt + rx * 0.5), sx_ = Math.sin(ring.tilt + rx * 0.5);
+    ctx.beginPath();
+    const seg = 96;
+    let satX = 0, satY = 0, satZ = 0;
+    for (let i = 0; i <= seg; i++) {
+      const a = (i / seg) * Math.PI * 2;
+      const p = [Math.cos(a) * ring.r, 0, Math.sin(a) * ring.r];
+      project(p, cy_, sy_, cx_, sx_, cxp, cyp, R, tmp);
+      if (i === 0) ctx.moveTo(tmp[0], tmp[1]); else ctx.lineTo(tmp[0], tmp[1]);
+    }
+    ctx.setLineDash(ring.dash);
+    ctx.strokeStyle = "rgba(255,255,255,0.32)"; ctx.lineWidth = 0.9; ctx.stroke();
+    ctx.setLineDash([]);
+    // satellite
+    const a = t * (0.9 + ring.r * 0.2) + ring.tilt * 3;
+    project([Math.cos(a) * ring.r, 0, Math.sin(a) * ring.r], cy_, sy_, cx_, sx_, cxp, cyp, R, tmp);
+    satX = tmp[0]; satY = tmp[1]; satZ = tmp[2];
+    const s = satZ > 0 ? 2.6 : 1.6;
+    ctx.fillStyle = satZ > 0 ? "rgba(255,255,255,0.95)" : "rgba(255,255,255,0.35)";
+    ctx.fillRect(satX - s / 2, satY - s / 2, s, s);
+  }
+
+  function render(now) {
+    const t = now / 1000;
+    const dt = last ? Math.min(0.05, t - last) : 0.016; last = t;
+    sx += (tx - sx) * 0.06; sy += (ty - sy) * 0.06;
+    boost *= 0.94;
+    ay += dt * (0.32 + boost * 2.4);
+    const rx = ax + sy * 0.35, ry = ay + sx * 0.5;
+
+    ctx.clearRect(0, 0, W, H);
+    const cxp = W / 2, cyp = H / 2;
+    const breathe = 1 + Math.sin(t * 1.4) * 0.012 + boost * 0.06;
+    const R = Math.min(W, H) * 0.3 * breathe;
+
+    // glow
+    const g = ctx.createRadialGradient(cxp, cyp, 0, cxp, cyp, R * 1.35);
+    g.addColorStop(0, "rgba(255,255,255," + (0.10 + boost * 0.25).toFixed(3) + ")");
+    g.addColorStop(1, "rgba(255,255,255,0)");
+    ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+
+    // sonar pulses
+    if (!reduce && t > nextSonar) { sonars.push(t); nextSonar = t + 2.8; }
+    for (let i = sonars.length - 1; i >= 0; i--) {
+      const age = (t - sonars[i]) / 2.2;
+      if (age > 1) { sonars.splice(i, 1); continue; }
+      ctx.beginPath(); ctx.arc(cxp, cyp, R * (1.0 + age * 0.75), 0, Math.PI * 2);
+      ctx.strokeStyle = "rgba(255,255,255," + (0.35 * (1 - age)).toFixed(3) + ")"; ctx.lineWidth = 1; ctx.stroke();
+    }
+
+    rings.forEach((rg, i) => { if (i === 2) drawRing(rg, t, R, cxp, cyp, ry, rx); });
+    drawSet(inner, innerPairs, bufI, -ry * 1.6, rx + 0.4, R, cxp, cyp, 0.7);
+    drawSet(outer, outerPairs, bufO, ry, rx, R, cxp, cyp, 1);
+    rings.forEach((rg, i) => { if (i !== 2) drawRing(rg, t, R, cxp, cyp, ry, rx); });
+
+    // crosshair ticks
+    ctx.strokeStyle = "rgba(255,255,255,0.25)"; ctx.lineWidth = 1;
+    ctx.beginPath();
+    const e = R * 1.78;
+    ctx.moveTo(cxp - e, cyp); ctx.lineTo(cxp - e + 10, cyp);
+    ctx.moveTo(cxp + e, cyp); ctx.lineTo(cxp + e - 10, cyp);
+    ctx.moveTo(cxp, cyp - e); ctx.lineTo(cxp, cyp - e + 10);
+    ctx.moveTo(cxp, cyp + e); ctx.lineTo(cxp, cyp + e - 10);
+    ctx.stroke();
+
+    if (++frame % 8 === 0) {
+      const deg = Math.round(((ry * 180 / Math.PI) % 360 + 360) % 360);
+      rotEl.textContent = "Rot " + String(deg).padStart(3, "0") + "°";
+    }
+  }
+
+  let visible = true, raf = 0;
+  function loop(now) { render(now); raf = (visible && !document.hidden) ? requestAnimationFrame(loop) : 0; }
+  function start() { if (!raf && !reduce) raf = requestAnimationFrame(loop); }
+
+  resize();
+  if (window.ResizeObserver) new ResizeObserver(() => { resize(); if (reduce) render(1000); }).observe(cv);
+  if (window.IntersectionObserver) new IntersectionObserver(es => { visible = es[0].isIntersecting; if (visible) start(); }).observe(box);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) start(); });
+  if (reduce) render(1000); else start();
+
+  // pointer tilt (desktop) + tap to wake
+  window.addEventListener("pointermove", e => {
+    tx = (e.clientX / window.innerWidth) * 2 - 1;
+    ty = (e.clientY / window.innerHeight) * 2 - 1;
+  }, { passive: true });
+  const wake = () => { boost = 1; sonars.push(performance.now() / 1000); if (reduce) render(1000); nextLine(true); };
+  cv.addEventListener("click", wake);
+  window.novaPulse = () => { boost = Math.max(boost, 0.45); };
+
+  /* ---------- live console ---------- */
+  const DEMO = [
+    ["bhai zara awaaz kam kar do", "volume kam"],
+    ["thermo mein kitni class aur chahiye", "attendance ka hisaab"],
+    ["jab hostel ki wifi se judu to phone silent kar do", "automation set"],
+    ["meri bottle table par padi hai", "yaad rakh liya"],
+    ["bottle kahan hai?", "“table par padi hai”"],
+    ["raat 12 baje rahul ko happy birthday bhejna", "scheduled 00:00"],
+    ["1200 ka bill 4 logon mein baanto", "₹300 har ek"],
+    ["neeche jao jab tak Battery na mile", "scroll › Battery"],
+    ["kya aaj baarish hogi", "forecast check"],
+    ["laptop lock karo", "laptop locked"],
+    ["rahul ko bolo ki main 5 baje aaunga", "WhatsApp › Rahul"],
+    ["newton ka teesra niyam samjhao", "Gemini se jawab"]
+  ];
+  const list = document.getElementById("lines");
+  let idx = 0, typing = null;
+
+  function addLine(said, did, animate) {
+    const li = document.createElement("li");
+    const s = document.createElement("span"); s.className = "said";
+    const d = document.createElement("span"); d.className = "did";
+    li.append(s, d); list.append(li);
+    while (list.children.length > 5) list.firstElementChild.remove();
+    if (!animate) { s.textContent = said; d.textContent = did; return; }
+    let i = 0;
+    const caret = document.createElement("span"); caret.className = "caret"; caret.setAttribute("aria-hidden", "true");
+    s.append(caret);
+    typing = setInterval(() => {
+      i++;
+      s.textContent = said.slice(0, i); s.append(caret);
+      if (i >= said.length) {
+        clearInterval(typing); typing = null;
+        setTimeout(() => { caret.remove(); d.textContent = did; window.novaPulse(); schedule(1500); }, 380);
+      }
+    }, 38);
+  }
+  let timer = 0;
+  function schedule(ms) { clearTimeout(timer); timer = setTimeout(() => nextLine(false), ms); }
+  function nextLine(fromTap) {
+    if (typing) return;
+    clearTimeout(timer);
+    const [said, did] = DEMO[idx % DEMO.length]; idx++;
+    addLine(said, did, !reduce);
+    if (reduce && !fromTap) return;
+  }
+  // the 5 lines already in the HTML stay; new ones type in below them
+  if (!reduce) { idx = 1; schedule(1400); }
+
+  /* ---------- feature filter ---------- */
+  const chips = document.querySelectorAll(".chip");
+  const mods = document.querySelectorAll(".mod");
+  chips.forEach(c => c.addEventListener("click", () => {
+    chips.forEach(o => o.setAttribute("aria-pressed", String(o === c)));
+    const f = c.dataset.f;
+    mods.forEach(m => { m.hidden = !(f === "all" || m.dataset.k === f); });
+  }));
+})();
+</script>
+</body>
+</html>
