@@ -34,11 +34,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px soli
 img { max-width: 100%; }
 
 .wrap {
-  max-width: 72rem; margin: 0 auto;
+  max-width: 120rem; margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
 }
 @media (min-width: 700px) { .wrap { padding-left: max(32px, env(safe-area-inset-left, 0px)); padding-right: max(32px, env(safe-area-inset-right, 0px)); } }
+@media (min-width: 1200px) { .wrap { padding-left: max(5vw, env(safe-area-inset-left, 0px)); padding-right: max(5vw, env(safe-area-inset-right, 0px)); } }
 .read { max-width: 44rem; }
 
 /* HUD label */
@@ -59,7 +60,7 @@ img { max-width: 100%; }
 .hero .hud { margin: 0 0 1rem; display: flex; gap: 0.6rem; align-items: center; }
 .hero .hud .live { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--ink); animation: blink 1.6s steps(2, start) infinite; }
 @keyframes blink { to { opacity: 0.15; } }
-h1 { font-family: var(--display); font-weight: 600; font-size: clamp(2.4rem, 6.4vw, 4.6rem); line-height: 1.0; letter-spacing: -0.01em; margin: 0 0 1.2rem; text-wrap: balance; text-transform: uppercase; }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(2.4rem, 5.6vw, 6rem); line-height: 1.0; letter-spacing: -0.01em; margin: 0 0 1.2rem; text-wrap: balance; text-transform: uppercase; }
 h1 .thin { font-weight: 300; color: var(--muted); }
 .lede { color: var(--muted); font-size: 1.15rem; max-width: 33rem; margin: 0 0 1.75rem; }
 .lede strong { color: var(--ink); font-weight: 500; }
@@ -73,7 +74,7 @@ h1 .thin { font-weight: 300; color: var(--muted); }
 .fine { font-size: 0.86rem; color: var(--muted); margin: 0.9rem 0 0; }
 
 /* the core */
-.core { position: relative; width: 100%; max-width: 30rem; margin-inline: auto; aspect-ratio: 1; }
+.core { position: relative; width: 100%; max-width: 42rem; margin-inline: auto; aspect-ratio: 1; }
 .core canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: pointer; }
 .core .tick { position: absolute; font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.14em; color: var(--faint); text-transform: uppercase; pointer-events: none; }
 .core .t1 { top: 3%; left: 0; } .core .t2 { top: 3%; right: 0; text-align: right; }
@@ -188,6 +189,12 @@ footer .fine { color: var(--faint); }
 .doc th { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
 .tablewrap { overflow-x: auto; }
 
+@media (min-width: 1200px) {
+  .hero { grid-template-columns: 1fr 1fr; gap: 4rem; }
+  .lede { font-size: 1.25rem; max-width: 38rem; }
+  .sec-head p { max-width: 36rem; }
+  .mod { padding: 1.5rem 1.5rem 1.6rem; }
+}
 @media (max-width: 900px) {
   .mods { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
